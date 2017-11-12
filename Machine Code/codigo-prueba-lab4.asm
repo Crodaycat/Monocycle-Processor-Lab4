@@ -39,6 +39,7 @@
 			addi $t0, $t0, 4
 			addi $t1, $t1, 4
 			mul $t4, $t4, -1
+			mfhi $t8
 			j loopReplace
 			
 		exitReplace:
